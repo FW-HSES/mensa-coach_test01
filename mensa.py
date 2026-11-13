@@ -23,17 +23,13 @@ def zahl(m):
 
 def finde_mensen():
     gesucht = {"flandernstrasse": "FLANDERN", "stadtmitte": "STADTMITTE"}
-    ids, alle = {}, []
-    for url in (BASE, BASE + "index.php?mode=bed"):
-        html = requests.get(url, headers=HEAD, timeout=30).text
-        for o in BeautifulSoup(html, "html.parser").find_all("option"):
-            text = sauber(o)
-            alle.append(f"{o.get('value')}={text}")
-            for key, wort in gesucht.items():
-                if wort in text.upper() and key not in ids:
-                    ids[key] = o.get("value")
-        if len(ids) == 2:
-            break
+    html = requests.get(BASE, headers=HEAD, timeout=30).text
+    alle = re.findall(r"<option\s+value=['\"]([^'\"]*)['\"]\s*/?>\s*([^<]*)", html)
+    ids = {}
+    for wert, text in alle:
+        for key, wort in gesucht.items():
+            if wort in text.upper() and key not in ids:
+                ids[key] = wert
     print("Mensa-Nummern:", ids)
     if len(ids) < 2:
         print("Auswahlliste:", alle)
