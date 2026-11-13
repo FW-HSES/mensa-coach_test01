@@ -58,3 +58,77 @@ def parse(html):
         vegan = "vegan" in labels
         out.append({
             "kategorie": kat, "name": sauber(sp) if sp else text,
+            "preis_studierende": preis, "vegan": vegan,
+            "vegetarisch": vegan or "vegetar" in labels,
+            "kcal_100g": zahl(re.search(r"Brennwert:\s*[\d,.]+\s*kj\s*/\s*" + zl + r"\s*kcal", text, re.I)),
+            "eiweiss_100g": zahl(re.search(r"Eiwei(?:ß|ss):\s*" + zl, text, re.I)),
+        })
+    return out
+
+
+def bewerte(namen):
+    liste = "\n".join(f"{i}. {n}" for i, n in enumerate(namen, 1))
+    prompt = ("Bewerte diese Mensa-Gerichte für Studierende. Antworte nur als JSON im Format "
+              '{"ergebnisse":[{"nr":1,"gesundheit":7,"kcal_portion":650,"begruendung":"max. 12 Wörter"}]}. '
+              "gesundheit ist eine Zahl von 1 bis 10, kcal_portion eine Schätzung für eine Portion. "
+              "Gerichte:\n" + liste)
+    r = requests.post(GROQ + "/chat/completions", timeout=120,
+                      headers={"Authorization": "Bearer " + os.environ["GROQ_API_KEY"]},
+                      json={"model": MODELL, "temperature": 0.2,
+                            "response_format": {"type": "json_object"},
+                            "messages": [{"role": "user", "content": prompt}]})
+    if not r.ok:
+        raise RuntimeError(f"HTTP {r.status_code}: {r.text}")
+    daten = json.loads(r.json()["choices"][0]["message"]["content"])
+    return {e["nr"]: e for e in daten["ergebnisse"]}
+
+
+def main():
+    jetzt = dt.datetime.now(ZoneInfo("Europe/Berlin"))
+    montag = jetzt.date() - dt.timedelta(days=jetzt.weekday())
+    ids, ergebnis, erste_antwort = finde_mensen(), {}, None
+    for key, loc in ids.items():
+        tage = []
+        for i in range(5):
+            d = montag + dt.timedelta(days=i)
+            payload = {"func": "make_spl", "locId": str(loc), "date": d.isoformat(), "lang": "de",
+                       "startThisWeek": montag.isoformat(),
+                       "startNextWeek": (montag + dt.timedelta(days=7)).isoformat()}
+            r = requests.post(AJAX, data=payload, headers=HEAD, timeout=30)
+            r.raise_for_status()
+            erste_antwort = erste_antwort or r.text
+            gerichte = parse(r.text)
+            print(f"{key} {d.isoformat()} {TAGE[i]}: {len(gerichte)} Gerichte")
+            tage.append({"datum": d.isoformat(), "wochentag": TAGE[i], "gerichte": gerichte})
+        ergebnis[key] = tage
+    namen = sorted({g["name"] for t in ergebnis.values() for tag in t for g in tag["gerichte"]})
+    if not namen:
+        print("0 Gerichte. Antwort (Anfang):", (erste_antwort or "")[:1500])
+        sys.exit(1)
+    try:
+        bew = bewerte(namen)
+    except Exception as e:
+        print("Groq-Fehler:", e)
+        try:
+            m = requests.get(GROQ + "/models", timeout=30,
+                             headers={"Authorization": "Bearer " + os.environ["GROQ_API_KEY"]})
+            print("Verfügbare Modelle:", [x["id"] for x in m.json().get("data", [])])
+        except Exception as e2:
+            print("Modellliste nicht abrufbar:", e2)
+        sys.exit(1)
+    nr = {n: i for i, n in enumerate(namen, 1)}
+    os.makedirs("data", exist_ok=True)
+    for key, tage in ergebnis.items():
+        for tag in tage:
+            for g in tag["gerichte"]:
+                b = bew.get(nr[g["name"]], {})
+                g["gesundheit"] = b.get("gesundheit")
+                g["kcal_portion"] = b.get("kcal_portion")
+                g["begruendung"] = b.get("begruendung")
+        with open(f"data/{key}.json", "w", encoding="utf-8") as f:
+            json.dump({"stand": jetzt.isoformat(timespec="seconds"), "tage": tage},
+                      f, ensure_ascii=False, indent=1)
+    print("Fertig:", len(namen), "Gerichte bewertet")
+
+
+main()
