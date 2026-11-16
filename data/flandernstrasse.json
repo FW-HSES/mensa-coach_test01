@@ -1,189 +1,189 @@
 {
- "stand": "2026-11-13T13:35:25+01:00",
+ "stand": "2026-11-16T07:04:32+01:00",
  "tage": [
   {
-   "datum": "2026-11-09",
+   "datum": "2026-11-16",
    "wochentag": "Montag",
    "gerichte": [
     {
      "kategorie": "Veganer Renner",
-     "name": "Gebratene Mienudeln mit Paprika, Weißkraut und Karotten",
+     "name": "Grünkernpfanne mit Blumenkohl-Bohnengemüse und Möhren-Chili-Dip",
      "preis_studierende": 2.99,
      "vegan": true,
      "vegetarisch": true,
-     "kcal_100g": 150.0,
-     "eiweiss_100g": 6.7,
-     "gesundheit": 6,
-     "kcal_portion": 550,
-     "begruendung": "Gemüse, aber frittierte Nudeln erhöhen Kalorien"
+     "kcal_100g": 54.0,
+     "eiweiss_100g": 1.7,
+     "gesundheit": 8,
+     "kcal_portion": 500,
+     "begruendung": "Vollkorn, Gemüse, wenig Fett"
     },
     {
      "kategorie": "Hauptgericht",
-     "name": "Hähnchebrustfilet mit Käuterfrischkäsefüllung mit Zitronen-Knoblauchsauce und Spirelli",
-     "preis_studierende": 5.2,
+     "name": "Fleischküchle mit Baked Beans und gebackenen Kartoffelscheiben",
+     "preis_studierende": 5.6,
      "vegan": false,
      "vegetarisch": false,
-     "kcal_100g": 182.0,
-     "eiweiss_100g": 8.5,
-     "gesundheit": 7,
-     "kcal_portion": 620,
-     "begruendung": "Mageres Fleisch, aber sahnige Füllung und Pasta"
+     "kcal_100g": 153.0,
+     "eiweiss_100g": 6.5,
+     "gesundheit": 5,
+     "kcal_portion": 800,
+     "begruendung": "Fleischbällchen, Bohnen, Kartoffeln – ausgewogen, aber fettig"
     }
    ]
   },
   {
-   "datum": "2026-11-10",
+   "datum": "2026-11-17",
    "wochentag": "Dienstag",
    "gerichte": [
     {
      "kategorie": "Veganer Renner",
-     "name": "Linsen und vegane Spätzle",
-     "preis_studierende": 2.99,
-     "vegan": true,
-     "vegetarisch": true,
-     "kcal_100g": 92.0,
-     "eiweiss_100g": 5.9,
-     "gesundheit": 7,
-     "kcal_portion": 540,
-     "begruendung": "Linsen proteinreich, vegane Spätzle leichter"
-    },
-    {
-     "kategorie": "Hauptgericht",
-     "name": "Apfelstrudelschnitten mit Dessertsauce Vanille",
-     "preis_studierende": 3.6,
-     "vegan": false,
-     "vegetarisch": true,
-     "kcal_100g": 63.0,
-     "eiweiss_100g": 3.1,
-     "gesundheit": 3,
-     "kcal_portion": 650,
-     "begruendung": "Süß, wenig Protein, hoher Zucker"
-    },
-    {
-     "kategorie": "Hauptgericht",
-     "name": "Linsen und Spätzle mit Saiten",
-     "preis_studierende": 4.9,
-     "vegan": false,
-     "vegetarisch": false,
-     "kcal_100g": 148.0,
-     "eiweiss_100g": 6.6,
-     "gesundheit": 6,
-     "kcal_portion": 580,
-     "begruendung": "Linsen gut, aber Spätzle erhöhen Kalorien"
-    }
-   ]
-  },
-  {
-   "datum": "2026-11-11",
-   "wochentag": "Mittwoch",
-   "gerichte": [
-    {
-     "kategorie": "Veganer Renner",
-     "name": "Kichererbsen-Curry mit Duftreis",
+     "name": "Linsencurry mit Kürbis und Duftreis",
      "preis_studierende": 2.99,
      "vegan": true,
      "vegetarisch": true,
      "kcal_100g": 114.0,
-     "eiweiss_100g": 3.8,
+     "eiweiss_100g": 4.1,
      "gesundheit": 8,
-     "kcal_portion": 560,
-     "begruendung": "Proteinreich, Gewürze, aber Reis erhöht Kohlen"
+     "kcal_portion": 520,
+     "begruendung": "Hülsenfrüchte, Gemüse, ballaststoffreich"
     },
     {
      "kategorie": "Hauptgericht",
-     "name": "Vegane Tortelloni mit Basilikum-Gemüsesauce",
-     "preis_studierende": 3.9,
-     "vegan": true,
-     "vegetarisch": true,
-     "kcal_100g": 111.0,
-     "eiweiss_100g": 3.3,
-     "gesundheit": 7,
-     "kcal_portion": 540,
-     "begruendung": "Vollkorn, Gemüse, aber kohlenhydratreich"
-    },
-    {
-     "kategorie": "Hauptgericht",
-     "name": "Schweinegeschnetzeltes mit Champignons mit Kartoffelrösti",
-     "preis_studierende": 5.4,
+     "name": "Teigtaschen mit Kartoffel-Quarkfüllung, Speck und Zwiebeln und Sour-Cream Dip",
+     "preis_studierende": 5.3,
      "vegan": false,
      "vegetarisch": false,
-     "kcal_100g": 183.0,
-     "eiweiss_100g": 10.9,
+     "kcal_100g": 189.0,
+     "eiweiss_100g": 5.7,
      "gesundheit": 5,
-     "kcal_portion": 700,
-     "begruendung": "Fleisch, Pilze gut, aber Rösti fettreich"
+     "kcal_portion": 750,
+     "begruendung": "Speck, Käse, cremige Sauce, kalorienreich"
+    },
+    {
+     "kategorie": "Hauptgericht",
+     "name": "Currywurst mit Currysauce und Pommes frites",
+     "preis_studierende": 4.1,
+     "vegan": false,
+     "vegetarisch": false,
+     "kcal_100g": 173.0,
+     "eiweiss_100g": 5.1,
+     "gesundheit": 3,
+     "kcal_portion": 900,
+     "begruendung": "Frittierte Wurst, Pommes, zuckerhaltige Sauce"
     }
    ]
   },
   {
-   "datum": "2026-11-12",
+   "datum": "2026-11-18",
+   "wochentag": "Mittwoch",
+   "gerichte": [
+    {
+     "kategorie": "Veganer Renner",
+     "name": "Vollkornspaghetti mit Sojabolognese",
+     "preis_studierende": 2.99,
+     "vegan": true,
+     "vegetarisch": true,
+     "kcal_100g": 157.0,
+     "eiweiss_100g": 8.3,
+     "gesundheit": 7,
+     "kcal_portion": 500,
+     "begruendung": "Vollkorn, Sojabolognese, proteinreich"
+    },
+    {
+     "kategorie": "Hauptgericht",
+     "name": "Kartoffel-Zucchini-Gratin",
+     "preis_studierende": 4.1,
+     "vegan": false,
+     "vegetarisch": true,
+     "kcal_100g": 124.0,
+     "eiweiss_100g": 5.2,
+     "gesundheit": 6,
+     "kcal_portion": 600,
+     "begruendung": "Kartoffeln, Zucchini, moderate Käsemenge"
+    },
+    {
+     "kategorie": "Hauptgericht",
+     "name": "Cordon bleu vom Schwein mit Bratensauce und Pommes frites",
+     "preis_studierende": 5.4,
+     "vegan": false,
+     "vegetarisch": false,
+     "kcal_100g": 164.0,
+     "eiweiss_100g": 8.1,
+     "gesundheit": 3,
+     "kcal_portion": 950,
+     "begruendung": "Panierte Schnitte, Sauce, Pommes – sehr kalorienreich"
+    }
+   ]
+  },
+  {
+   "datum": "2026-11-19",
    "wochentag": "Donnerstag",
    "gerichte": [
     {
      "kategorie": "Veganer Renner",
-     "name": "Kartoffel-Gemüse-Pfanne",
+     "name": "Vollkorn Penne mit mediterranem Gemüse",
      "preis_studierende": 2.99,
      "vegan": true,
      "vegetarisch": true,
-     "kcal_100g": 61.0,
-     "eiweiss_100g": 2.2,
-     "gesundheit": 7,
-     "kcal_portion": 500,
-     "begruendung": "Vollwertig, wenig Fett, sättigend"
+     "kcal_100g": 100.0,
+     "eiweiss_100g": 3.4,
+     "gesundheit": 8,
+     "kcal_portion": 480,
+     "begruendung": "Vollkorn, Gemüse, wenig Fett"
     },
     {
      "kategorie": "Hauptgericht",
-     "name": "Überbackener Blumenkohl mit Kräuterrahmsauce und Petersilienkartoffeln",
-     "preis_studierende": 4.2,
+     "name": "Chili con Carne und Reis",
+     "preis_studierende": 4.4,
      "vegan": false,
      "vegetarisch": false,
-     "kcal_100g": 76.0,
-     "eiweiss_100g": 2.6,
+     "kcal_100g": 128.0,
+     "eiweiss_100g": 6.3,
      "gesundheit": 6,
-     "kcal_portion": 620,
-     "begruendung": "Gemüse, aber sahnige Sauce und Kartoffeln"
+     "kcal_portion": 650,
+     "begruendung": "Proteinreich, aber mit Fett und Reis"
     },
     {
      "kategorie": "Hauptgericht",
-     "name": "Paniertes Schweineschnitzel mit Bratensauce und Pommes frites",
-     "preis_studierende": 4.9,
+     "name": "Allgäuer Käsespätzle mit Zwiebelschmelze",
+     "preis_studierende": 4.5,
      "vegan": false,
-     "vegetarisch": false,
-     "kcal_100g": 163.0,
-     "eiweiss_100g": 8.3,
-     "gesundheit": 3,
-     "kcal_portion": 850,
-     "begruendung": "Frittierte Schnitzel, schwere Sauce, Pommes – sehr kalorienreich"
+     "vegetarisch": true,
+     "kcal_100g": 186.0,
+     "eiweiss_100g": 8.0,
+     "gesundheit": 5,
+     "kcal_portion": 720,
+     "begruendung": "Käse hoch, wenig Gemüse, moderat fettig"
     }
    ]
   },
   {
-   "datum": "2026-11-13",
+   "datum": "2026-11-20",
    "wochentag": "Freitag",
    "gerichte": [
     {
      "kategorie": "Veganer Renner",
-     "name": "Tomaten-Spaghetti mit Erbsencreme und Chiliflocken",
+     "name": "Gemüse-Knusperfrikadelle mit veganer Kräutercremesauce und Reis",
      "preis_studierende": 2.99,
      "vegan": true,
      "vegetarisch": true,
-     "kcal_100g": 152.0,
-     "eiweiss_100g": 4.4,
+     "kcal_100g": 117.0,
+     "eiweiss_100g": 2.4,
      "gesundheit": 7,
-     "kcal_portion": 560,
-     "begruendung": "Vollkornspaghetti, Erbsenprotein, wenig Fett"
+     "kcal_portion": 550,
+     "begruendung": "Vegan, viel Gemüse, moderate Kalorien"
     },
     {
      "kategorie": "Hauptgericht",
-     "name": "Schlemmerfilet à la bordelaise mit Dillsauce und Vollkornreis",
-     "preis_studierende": 5.2,
+     "name": "Backfisch mit Remouladensauce und Kartoffelsalat",
+     "preis_studierende": 5.8,
      "vegan": false,
      "vegetarisch": false,
-     "kcal_100g": 158.0,
-     "eiweiss_100g": 6.3,
-     "gesundheit": 8,
-     "kcal_portion": 620,
-     "begruendung": "Fischprotein, Vollkorn, aber cremige Sauce"
+     "kcal_100g": 174.0,
+     "eiweiss_100g": 6.4,
+     "gesundheit": 4,
+     "kcal_portion": 800,
+     "begruendung": "Frittierter Fisch, Remoulade, kalorienreich"
     }
    ]
   }
