@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-17T06:58:03+01:00",
+ "stand": "2026-11-18T06:59:36+01:00",
  "tage": [
   {
    "datum": "2026-11-16",
@@ -14,8 +14,8 @@
      "kcal_100g": 54.0,
      "eiweiss_100g": 1.7,
      "gesundheit": 9,
-     "kcal_portion": 550,
-     "begruendung": "Vollwertig, ballaststoffreich, wenig Fett, aromatischer Dip."
+     "kcal_portion": 500,
+     "begruendung": "Vollkorn, ballaststoffreich, viel Gemüse, wenig Fett"
     },
     {
      "kategorie": "Hauptgericht",
@@ -25,9 +25,9 @@
      "vegetarisch": false,
      "kcal_100g": 153.0,
      "eiweiss_100g": 6.5,
-     "gesundheit": 5,
-     "kcal_portion": 750,
-     "begruendung": "Fleisch und Bohnen, aber gebackene Beilagen, moderat."
+     "gesundheit": 6,
+     "kcal_portion": 700,
+     "begruendung": "Protein, Ballaststoffe, gebacken, moderater Fettgehalt"
     }
    ]
   },
@@ -43,21 +43,21 @@
      "vegetarisch": true,
      "kcal_100g": 114.0,
      "eiweiss_100g": 4.1,
-     "gesundheit": 8,
-     "kcal_portion": 600,
-     "begruendung": "Linsen, Kürbis, wenig Fett, nährstoffreich, sättigend."
+     "gesundheit": 9,
+     "kcal_portion": 550,
+     "begruendung": "Linsen, Kürbis, ballaststoffreich, gesunde Gewürze, moderate Kalorien"
     },
     {
      "kategorie": "Hauptgericht",
-     "name": "Teigtaschen mit Kartoffel-Quarkfüllung, Speck und Zwiebeln und Sour-Cream Dip",
+     "name": "Teigtaschen mit Kartoffel-Quarkfüllung, Speck, Zwiebeln und Sour-Cream Dip",
      "preis_studierende": 5.3,
      "vegan": false,
      "vegetarisch": false,
      "kcal_100g": 189.0,
      "eiweiss_100g": 5.7,
      "gesundheit": 4,
-     "kcal_portion": 800,
-     "begruendung": "Teig, Speck, Sahnedip, kalorienreich, wenig Gemüse."
+     "kcal_portion": 850,
+     "begruendung": "Teig, Speck, Sahne, kalorienreich, wenig Gemüse"
     },
     {
      "kategorie": "Hauptgericht",
@@ -67,9 +67,9 @@
      "vegetarisch": false,
      "kcal_100g": 173.0,
      "eiweiss_100g": 5.1,
-     "gesundheit": 2,
+     "gesundheit": 3,
      "kcal_portion": 900,
-     "begruendung": "Wurst, frittierte Pommes, zuckerhaltige Sauce, wenig Nährstoffe."
+     "begruendung": "Verarbeitetes Fleisch, frittierte Beilagen, hoher Kaloriengehalt"
     }
    ]
   },
@@ -85,9 +85,9 @@
      "vegetarisch": true,
      "kcal_100g": 157.0,
      "eiweiss_100g": 8.3,
-     "gesundheit": 9,
-     "kcal_portion": 560,
-     "begruendung": "Vollkorn, proteinreiche Soja, wenig Fett, gesunde Wahl."
+     "gesundheit": 8,
+     "kcal_portion": 580,
+     "begruendung": "Vollkorn, pflanzliches Protein, wenig Fett, ausgewogen"
     },
     {
      "kategorie": "Hauptgericht",
@@ -99,7 +99,7 @@
      "eiweiss_100g": 5.2,
      "gesundheit": 6,
      "kcal_portion": 650,
-     "begruendung": "Kartoffeln, Zucchini, Käse, sättigend, moderate Kalorien."
+     "begruendung": "Käse, Kartoffeln, moderate Gemüse, sättigend, mittlere Kalorien"
     },
     {
      "kategorie": "Hauptgericht",
@@ -109,9 +109,9 @@
      "vegetarisch": false,
      "kcal_100g": 164.0,
      "eiweiss_100g": 8.1,
-     "gesundheit": 2,
+     "gesundheit": 3,
      "kcal_portion": 950,
-     "begruendung": "Panierte Schnitte, Sahnesauce, frittierte Pommes, sehr kalorienreich."
+     "begruendung": "Fettig, panierte Fleisch, hohe Kalorien, wenig Gemüse"
     }
    ]
   },
@@ -127,9 +127,9 @@
      "vegetarisch": true,
      "kcal_100g": 100.0,
      "eiweiss_100g": 3.4,
-     "gesundheit": 9,
-     "kcal_portion": 550,
-     "begruendung": "Vollkorn, viel Gemüse, wenig Fett, ausgewogen."
+     "gesundheit": 8,
+     "kcal_portion": 600,
+     "begruendung": "Vollkorn, viel Gemüse, gesunde Fette, moderate Kalorien"
     },
     {
      "kategorie": "Hauptgericht",
@@ -139,9 +139,9 @@
      "vegetarisch": false,
      "kcal_100g": 128.0,
      "eiweiss_100g": 6.3,
-     "gesundheit": 6,
-     "kcal_portion": 650,
-     "begruendung": "Proteinreich, aber fettreiches Fleisch, sättigend."
+     "gesundheit": 7,
+     "kcal_portion": 600,
+     "begruendung": "Proteinreich, ballaststoffreich, moderate Kalorien"
     },
     {
      "kategorie": "Hauptgericht",
@@ -151,9 +151,9 @@
      "vegetarisch": true,
      "kcal_100g": 186.0,
      "eiweiss_100g": 8.0,
-     "gesundheit": 3,
+     "gesundheit": 4,
      "kcal_portion": 800,
-     "begruendung": "Viel Käse, wenig Gemüse, kalorienreich."
+     "begruendung": "Käse und Kohlenhydrate, wenig Gemüse, hoher Kaloriengehalt"
     }
    ]
   },
@@ -170,8 +170,8 @@
      "kcal_100g": 117.0,
      "eiweiss_100g": 2.4,
      "gesundheit": 8,
-     "kcal_portion": 600,
-     "begruendung": "Viel Gemüse, vegane Sauce, ausgewogen, moderate Kalorien."
+     "kcal_portion": 550,
+     "begruendung": "Vegan, viel Gemüse, moderate Kalorien, gesunde Fette"
     },
     {
      "kategorie": "Hauptgericht",
@@ -181,9 +181,9 @@
      "vegetarisch": false,
      "kcal_100g": 174.0,
      "eiweiss_100g": 6.4,
-     "gesundheit": 4,
+     "gesundheit": 5,
      "kcal_portion": 750,
-     "begruendung": "Frittiert, schwere Sauce, moderate Nährstoffe."
+     "begruendung": "Frittierter Fisch, schwere Sauce, moderate Kohlenhydrate"
     }
    ]
   }
