@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-18T06:59:36+01:00",
+ "stand": "2026-11-19T06:59:46+01:00",
  "tage": [
   {
    "datum": "2026-11-16",
@@ -15,7 +15,7 @@
      "eiweiss_100g": 1.7,
      "gesundheit": 9,
      "kcal_portion": 500,
-     "begruendung": "Vollkorn, ballaststoffreich, viel Gemüse, wenig Fett"
+     "begruendung": "Vollwertig, ballaststoffreich, wenig Fett."
     },
     {
      "kategorie": "Hauptgericht",
@@ -26,8 +26,8 @@
      "kcal_100g": 153.0,
      "eiweiss_100g": 6.5,
      "gesundheit": 6,
-     "kcal_portion": 700,
-     "begruendung": "Protein, Ballaststoffe, gebacken, moderater Fettgehalt"
+     "kcal_portion": 750,
+     "begruendung": "Protein, Bohnen, aber frittierte Beilagen."
     }
    ]
   },
@@ -43,9 +43,9 @@
      "vegetarisch": true,
      "kcal_100g": 114.0,
      "eiweiss_100g": 4.1,
-     "gesundheit": 9,
+     "gesundheit": 8,
      "kcal_portion": 550,
-     "begruendung": "Linsen, Kürbis, ballaststoffreich, gesunde Gewürze, moderate Kalorien"
+     "begruendung": "Linsen, Kürbis, nährstoffreich, moderate Kalorien."
     },
     {
      "kategorie": "Hauptgericht",
@@ -55,9 +55,9 @@
      "vegetarisch": false,
      "kcal_100g": 189.0,
      "eiweiss_100g": 5.7,
-     "gesundheit": 4,
-     "kcal_portion": 850,
-     "begruendung": "Teig, Speck, Sahne, kalorienreich, wenig Gemüse"
+     "gesundheit": 3,
+     "kcal_portion": 900,
+     "begruendung": "Teig, Speck, Sahne, sehr kalorienreich."
     },
     {
      "kategorie": "Hauptgericht",
@@ -69,7 +69,7 @@
      "eiweiss_100g": 5.1,
      "gesundheit": 3,
      "kcal_portion": 900,
-     "begruendung": "Verarbeitetes Fleisch, frittierte Beilagen, hoher Kaloriengehalt"
+     "begruendung": "Fettig, verarbeitet, hohe Kalorien, wenig Nährstoffe."
     }
    ]
   },
@@ -79,15 +79,15 @@
    "gerichte": [
     {
      "kategorie": "Veganer Renner",
-     "name": "Vollkornspaghetti mit Sojabolognese",
+     "name": "Vollkornpasta mit Sojabolognese",
      "preis_studierende": 2.99,
      "vegan": true,
      "vegetarisch": true,
      "kcal_100g": 157.0,
      "eiweiss_100g": 8.3,
-     "gesundheit": 8,
-     "kcal_portion": 580,
-     "begruendung": "Vollkorn, pflanzliches Protein, wenig Fett, ausgewogen"
+     "gesundheit": 9,
+     "kcal_portion": 550,
+     "begruendung": "Vollkorn, proteinreich, wenig Fett, gesunde Wahl."
     },
     {
      "kategorie": "Hauptgericht",
@@ -99,7 +99,7 @@
      "eiweiss_100g": 5.2,
      "gesundheit": 6,
      "kcal_portion": 650,
-     "begruendung": "Käse, Kartoffeln, moderate Gemüse, sättigend, mittlere Kalorien"
+     "begruendung": "Käse, Kartoffeln, Zucchini, moderate Kalorien."
     },
     {
      "kategorie": "Hauptgericht",
@@ -111,7 +111,7 @@
      "eiweiss_100g": 8.1,
      "gesundheit": 3,
      "kcal_portion": 950,
-     "begruendung": "Fettig, panierte Fleisch, hohe Kalorien, wenig Gemüse"
+     "begruendung": "Fettig, panierte Schnitte, Pommes, wenig Gemüse."
     }
    ]
   },
@@ -129,7 +129,7 @@
      "eiweiss_100g": 3.4,
      "gesundheit": 8,
      "kcal_portion": 600,
-     "begruendung": "Vollkorn, viel Gemüse, gesunde Fette, moderate Kalorien"
+     "begruendung": "Vollkorn, Gemüse, ausgewogen, moderate Kalorien."
     },
     {
      "kategorie": "Hauptgericht",
@@ -141,7 +141,7 @@
      "eiweiss_100g": 6.3,
      "gesundheit": 7,
      "kcal_portion": 600,
-     "begruendung": "Proteinreich, ballaststoffreich, moderate Kalorien"
+     "begruendung": "Proteinreich, ballaststoffreich, moderate Kalorien."
     },
     {
      "kategorie": "Hauptgericht",
@@ -152,8 +152,8 @@
      "kcal_100g": 186.0,
      "eiweiss_100g": 8.0,
      "gesundheit": 4,
-     "kcal_portion": 800,
-     "begruendung": "Käse und Kohlenhydrate, wenig Gemüse, hoher Kaloriengehalt"
+     "kcal_portion": 750,
+     "begruendung": "Fettig, kalorienreich, wenig Gemüse."
     }
    ]
   },
@@ -171,7 +171,7 @@
      "eiweiss_100g": 2.4,
      "gesundheit": 8,
      "kcal_portion": 550,
-     "begruendung": "Vegan, viel Gemüse, moderate Kalorien, gesunde Fette"
+     "begruendung": "Vegan, viel Gemüse, moderate Kalorien."
     },
     {
      "kategorie": "Hauptgericht",
@@ -182,8 +182,8 @@
      "kcal_100g": 174.0,
      "eiweiss_100g": 6.4,
      "gesundheit": 5,
-     "kcal_portion": 750,
-     "begruendung": "Frittierter Fisch, schwere Sauce, moderate Kohlenhydrate"
+     "kcal_portion": 800,
+     "begruendung": "Frittiert, schwere Sauce, moderate Nährstoffe."
     }
    ]
   }
