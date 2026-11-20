@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-19T06:59:46+01:00",
+ "stand": "2026-11-20T06:59:56+01:00",
  "tage": [
   {
    "datum": "2026-11-16",
@@ -15,7 +15,7 @@
      "eiweiss_100g": 1.7,
      "gesundheit": 9,
      "kcal_portion": 500,
-     "begruendung": "Vollwertig, ballaststoffreich, wenig Fett."
+     "begruendung": "vollkorn, viel Gemüse, wenig Fett, niedrige Kalorien"
     },
     {
      "kategorie": "Hauptgericht",
@@ -25,9 +25,9 @@
      "vegetarisch": false,
      "kcal_100g": 153.0,
      "eiweiss_100g": 6.5,
-     "gesundheit": 6,
-     "kcal_portion": 750,
-     "begruendung": "Protein, Bohnen, aber frittierte Beilagen."
+     "gesundheit": 5,
+     "kcal_portion": 700,
+     "begruendung": "Proteinreich, Bohnen liefern Ballaststoffe, moderate Kalorien"
     }
    ]
   },
@@ -43,9 +43,9 @@
      "vegetarisch": true,
      "kcal_100g": 114.0,
      "eiweiss_100g": 4.1,
-     "gesundheit": 8,
+     "gesundheit": 9,
      "kcal_portion": 550,
-     "begruendung": "Linsen, Kürbis, nährstoffreich, moderate Kalorien."
+     "begruendung": "pflanzliches Protein, ballaststoffreich, wenig Fett"
     },
     {
      "kategorie": "Hauptgericht",
@@ -56,8 +56,8 @@
      "kcal_100g": 189.0,
      "eiweiss_100g": 5.7,
      "gesundheit": 3,
-     "kcal_portion": 900,
-     "begruendung": "Teig, Speck, Sahne, sehr kalorienreich."
+     "kcal_portion": 850,
+     "begruendung": "teigig, fettreich, wenig Gemüse, hohe Kalorien"
     },
     {
      "kategorie": "Hauptgericht",
@@ -67,9 +67,9 @@
      "vegetarisch": false,
      "kcal_100g": 173.0,
      "eiweiss_100g": 5.1,
-     "gesundheit": 3,
+     "gesundheit": 2,
      "kcal_portion": 900,
-     "begruendung": "Fettig, verarbeitet, hohe Kalorien, wenig Nährstoffe."
+     "begruendung": "verarbeitetes Fleisch, viel Fett, hohe Kalorien"
     }
    ]
   },
@@ -85,9 +85,9 @@
      "vegetarisch": true,
      "kcal_100g": 157.0,
      "eiweiss_100g": 8.3,
-     "gesundheit": 9,
-     "kcal_portion": 550,
-     "begruendung": "Vollkorn, proteinreich, wenig Fett, gesunde Wahl."
+     "gesundheit": 8,
+     "kcal_portion": 580,
+     "begruendung": "Vollkorn, pflanzliches Protein, wenig Fett"
     },
     {
      "kategorie": "Hauptgericht",
@@ -99,7 +99,7 @@
      "eiweiss_100g": 5.2,
      "gesundheit": 6,
      "kcal_portion": 650,
-     "begruendung": "Käse, Kartoffeln, Zucchini, moderate Kalorien."
+     "begruendung": "Gemüseanteil, aber viel Käse und Sahne"
     },
     {
      "kategorie": "Hauptgericht",
@@ -111,7 +111,7 @@
      "eiweiss_100g": 8.1,
      "gesundheit": 3,
      "kcal_portion": 950,
-     "begruendung": "Fettig, panierte Schnitte, Pommes, wenig Gemüse."
+     "begruendung": "fettiges Fleisch, schwere Sauce, kalorienreiche Pommes"
     }
    ]
   },
@@ -129,7 +129,7 @@
      "eiweiss_100g": 3.4,
      "gesundheit": 8,
      "kcal_portion": 600,
-     "begruendung": "Vollkorn, Gemüse, ausgewogen, moderate Kalorien."
+     "begruendung": "Vollkorn, viel Gemüse, moderater Fettgehalt"
     },
     {
      "kategorie": "Hauptgericht",
@@ -141,7 +141,7 @@
      "eiweiss_100g": 6.3,
      "gesundheit": 7,
      "kcal_portion": 600,
-     "begruendung": "Proteinreich, ballaststoffreich, moderate Kalorien."
+     "begruendung": "ausgewogenes Protein, Ballaststoffe, moderate Kalorien"
     },
     {
      "kategorie": "Hauptgericht",
@@ -152,8 +152,8 @@
      "kcal_100g": 186.0,
      "eiweiss_100g": 8.0,
      "gesundheit": 4,
-     "kcal_portion": 750,
-     "begruendung": "Fettig, kalorienreich, wenig Gemüse."
+     "kcal_portion": 850,
+     "begruendung": "viel Käse, hohe Kalorien, wenig Gemüse"
     }
    ]
   },
@@ -171,7 +171,7 @@
      "eiweiss_100g": 2.4,
      "gesundheit": 8,
      "kcal_portion": 550,
-     "begruendung": "Vegan, viel Gemüse, moderate Kalorien."
+     "begruendung": "pflanzlich, wenig Fett, ballaststoffreich, moderate Kalorien"
     },
     {
      "kategorie": "Hauptgericht",
@@ -182,8 +182,8 @@
      "kcal_100g": 174.0,
      "eiweiss_100g": 6.4,
      "gesundheit": 5,
-     "kcal_portion": 800,
-     "begruendung": "Frittiert, schwere Sauce, moderate Nährstoffe."
+     "kcal_portion": 750,
+     "begruendung": "frittierter Fisch, cremige Sauce, sättigende Beilagen"
     }
    ]
   }
