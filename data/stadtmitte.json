@@ -1,5 +1,5 @@
 {
- "stand": "2026-11-26T06:59:04+01:00",
+ "stand": "2026-11-27T07:00:24+01:00",
  "tage": [
   {
    "datum": "2026-11-23",
@@ -13,9 +13,9 @@
      "vegetarisch": true,
      "kcal_100g": 97.0,
      "eiweiss_100g": 3.5,
-     "gesundheit": 6,
-     "kcal_portion": 600,
-     "begruendung": "Vollkornpasta fehlt, aber Gemüse gut."
+     "gesundheit": 8,
+     "kcal_portion": 500,
+     "begruendung": "Vollkornpasta, viel Gemüse, moderater Kaloriengehalt."
     },
     {
      "kategorie": "Hauptgericht",
@@ -26,8 +26,8 @@
      "kcal_100g": 108.0,
      "eiweiss_100g": 4.2,
      "gesundheit": 4,
-     "kcal_portion": 850,
-     "begruendung": "Fettige Sauce, Fleisch, kalorienreich, wenig Gemüse."
+     "kcal_portion": 720,
+     "begruendung": "Fettige Sauce, Fleisch und Kartoffeln, wenig Gemüse."
     }
    ]
   },
@@ -44,7 +44,7 @@
      "kcal_100g": 150.0,
      "eiweiss_100g": 3.0,
      "gesundheit": 8,
-     "kcal_portion": 600,
+     "kcal_portion": 550,
      "begruendung": "Pflanzlich, viel Gemüse, moderate Kalorien."
     },
     {
@@ -55,9 +55,9 @@
      "vegetarisch": false,
      "kcal_100g": 127.0,
      "eiweiss_100g": 5.5,
-     "gesundheit": 3,
-     "kcal_portion": 800,
-     "begruendung": "Fettig, viel Kalorien, wenig Gemüse."
+     "gesundheit": 4,
+     "kcal_portion": 750,
+     "begruendung": "Fettig, kalorienreich, wenig Gemüse."
     }
    ]
   },
@@ -74,8 +74,8 @@
      "kcal_100g": 111.0,
      "eiweiss_100g": 2.8,
      "gesundheit": 7,
-     "kcal_portion": 550,
-     "begruendung": "Gemüse, aber Gnocchi erhöhen Kohlenhydrate."
+     "kcal_portion": 600,
+     "begruendung": "Vollwertiges Gemüse, jedoch Gnocchi erhöhen Kohlenhydrate."
     },
     {
      "kategorie": "Hauptgericht",
@@ -86,8 +86,8 @@
      "kcal_100g": 106.0,
      "eiweiss_100g": 4.4,
      "gesundheit": 6,
-     "kcal_portion": 600,
-     "begruendung": "Kartoffeln und Gemüse, moderate Kalorien, wenig Fett."
+     "kcal_portion": 550,
+     "begruendung": "Gemüseanteil gut, aber Kartoffeln und Käse erhöhen Kalorien."
     },
     {
      "kategorie": "Hauptgericht",
@@ -98,8 +98,8 @@
      "kcal_100g": 176.0,
      "eiweiss_100g": 8.5,
      "gesundheit": 5,
-     "kcal_portion": 750,
-     "begruendung": "Fleischsauce, Käse erhöhen Kalorien, wenig Gemüse."
+     "kcal_portion": 700,
+     "begruendung": "Fleischsauce gut, aber Käse und Pasta erhöhen Kalorien."
     }
    ]
   },
@@ -115,8 +115,8 @@
      "vegetarisch": true,
      "kcal_100g": 99.0,
      "eiweiss_100g": 2.1,
-     "gesundheit": 5,
-     "kcal_portion": 650,
+     "gesundheit": 6,
+     "kcal_portion": 620,
      "begruendung": "Kohlenhydratreich, Sauerkraut liefert Probiotika."
     },
     {
@@ -128,8 +128,8 @@
      "kcal_100g": 163.0,
      "eiweiss_100g": 5.8,
      "gesundheit": 5,
-     "kcal_portion": 750,
-     "begruendung": "Käse und Nüsse kalorienreich, Birne liefert etwas Vitamine."
+     "kcal_portion": 680,
+     "begruendung": "Käse und Nüsse, aber frische Birne liefert Ballaststoffe."
     },
     {
      "kategorie": "Hauptgericht",
@@ -139,9 +139,9 @@
      "vegetarisch": false,
      "kcal_100g": 159.0,
      "eiweiss_100g": 10.1,
-     "gesundheit": 3,
-     "kcal_portion": 900,
-     "begruendung": "Fettreich, cremige Sauce, kalorienintensiv."
+     "gesundheit": 4,
+     "kcal_portion": 800,
+     "begruendung": "Fettreiches Fleisch, Sahnesauce, kalorienintensiv."
     }
    ]
   },
@@ -157,7 +157,7 @@
      "vegetarisch": true,
      "kcal_100g": 94.0,
      "eiweiss_100g": 3.0,
-     "gesundheit": 7,
+     "gesundheit": 8,
      "kcal_portion": 550,
      "begruendung": "Naturreis, viel Gemüse, ausgewogene Nährstoffe."
     },
@@ -169,9 +169,9 @@
      "vegetarisch": false,
      "kcal_100g": 177.0,
      "eiweiss_100g": 5.9,
-     "gesundheit": 2,
-     "kcal_portion": 950,
-     "begruendung": "Frittierte Pommes, viel Fett, kalorienreich."
+     "gesundheit": 3,
+     "kcal_portion": 850,
+     "begruendung": "Frittierte Pommes, viel Käse, hohe Kalorien."
     },
     {
      "kategorie": "Hauptgericht",
@@ -183,7 +183,7 @@
      "eiweiss_100g": 6.7,
      "gesundheit": 5,
      "kcal_portion": 700,
-     "begruendung": "Panierte Fisch, Remoulade erhöhen Fett, moderate Kohlenhydrate."
+     "begruendung": "Panade und Remoulade erhöhen Fett, Fisch bleibt proteinreich."
     }
    ]
   }
